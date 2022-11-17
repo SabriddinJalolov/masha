@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+.continer {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background-image: url(/image/masha.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 80px auto;
+  transition: transform 2s ease;
+}
+
+.kok_oyna1 {
+  width: 2000px;
+  height: 400px;
+  background-color: aquamarine;
+      transform-origin: left center;
+  transition: transform 2s ease;
+
+}
+.continer:hover .kok_oyna1 {
+  transform: translateX(400px);
+  transform: rotateY(180deg) skewY(-5deg);
+
+  
+  
+}
+
+.kok_oyna2 {
+  width: 2000px;
+  height: 400px;
+  background-color: aquamarine;
+  transform-origin: right center;
+  transition: transform 2s ease;
+}
+.continer:hover .kok_oyna2 {
+  transform: rotateY(180deg) skewY(5deg);
+
+}
